@@ -7,7 +7,7 @@ header {
     display: flex;
     flex-direction: row;
     column-gap: 350px;
-    background-color: burlywood;
+    background: linear-gradient(to right, rgb(52, 224, 112), rgb(76, 170, 233));
     height: 85px;
 }
 
@@ -34,7 +34,19 @@ header button {
     height: 45px;
     margin-top: 20px;
     border-radius: 10px;
-    background-color: white;
+    background-color: rgb(30, 158, 238);
+    font-size: medium;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+header button:hover {
+    width: 155px;
+    height: 50px;
+    background-color: greenyellow;
+    color: rgb(13, 30, 177);
+    font-weight: bolder;
+    font-size: 17px;
+    box-shadow: 5px 5px rgb(42, 42, 225);
 }
 
 span.xyz {
@@ -46,10 +58,12 @@ a {
     color: white;
     cursor: pointer;
     transition: 0.3s ease;
+    font-size: larger;
 }
-a:hover ,
+a:hover,
 a:active {
     color: orangered;
+    text-decoration: underline;
 }
 
 main{
@@ -63,4 +77,34 @@ main{
     border-radius: 6px;
     height: 40px;
     width: 100px;
+    font-size: medium;
+}
+
+.b1 {
+    background-color: black;
+    color: white;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.b1:hover {
+    height: 45px;
+    width: 120px;
+    background-color: rgb(52, 224, 112);
+    color: black;
+    font-weight: bolder;
+    box-shadow: 5px 5px blue;
+}
+.b2 {
+    background-color: orangered;
+    color: white;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.b2:hover {
+    height: 45px;
+    width: 120px;
+    background-color: rgb(76, 170, 233);
+    color: black;
+    font-weight: bolder;
+    box-shadow: 5px 5px greenyellow;
 }
