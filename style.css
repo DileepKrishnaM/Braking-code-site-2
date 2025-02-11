@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    column-gap: 350px;
+    background-color: burlywood;
+    height: 85px;
+}
+
+.title {
+    font-size: 30px;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.navbar {
+    margin-top: 19px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    list-style: none;
+}
+
+header button {
+    width: 140px;
+    height: 45px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+span.xyz {
+    color : orangered;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+a:hover ,
+a:active {
+    color: orangered;
+}
+
+main{
+    width: 50vw;
+    margin-left: 50px;
+    margin-top: 150px;
+}
+
+.buttons button{
+    margin-right: 20px;
+    border-radius: 6px;
+    height: 40px;
+    width: 100px;
+}
